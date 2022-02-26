@@ -17,14 +17,14 @@ const Nav = () => {
             
             <div className="nav-right">
                 <h3>Shop  <div className="line"></div></h3>
-            <ul>
-                <li> <BsSearch /> </li>
-                <li> <FiUser /> </li>
-                <li> <HiOutlineMenuAlt4 /> </li>
+            <ul className="ul">
+                <li className="li"> <BsSearch /> </li>
+                <li className="li"> <FiUser /> </li>
+                <li className="li"> <HiOutlineMenuAlt4 /> </li>
             </ul>
             </div>
-            <div className="nav-line"></div>
         </div>
+        <div className="nav-line"></div>
         </div>
     )
 } 
